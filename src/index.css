@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/playfair-display/400.css";
+@import "@fontsource/playfair-display/600.css";
+@import "@fontsource/playfair-display/700.css";
+@import "@fontsource/lato/300.css";
+@import "@fontsource/lato/400.css";
+@import "@fontsource/lato/700.css";
+
+@layer base {
+  :root {
+    --background: 30 25% 96%;
+    --foreground: 350 20% 15%;
+
+    --card: 30 20% 93%;
+    --card-foreground: 350 20% 15%;
+
+    --popover: 30 25% 96%;
+    --popover-foreground: 350 20% 15%;
+
+    --primary: 348 55% 28%;
+    --primary-foreground: 30 30% 95%;
+
+    --secondary: 42 60% 50%;
+    --secondary-foreground: 350 30% 12%;
+
+    --muted: 30 15% 88%;
+    --muted-foreground: 350 10% 45%;
+
+    --accent: 42 60% 50%;
+    --accent-foreground: 350 30% 12%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 30 15% 82%;
+    --input: 30 15% 85%;
+    --ring: 348 55% 28%;
+
+    --radius: 0.75rem;
+
+    --chat-bot: 30 20% 90%;
+    --chat-bot-foreground: 350 20% 15%;
+    --chat-user: 348 55% 28%;
+    --chat-user-foreground: 30 30% 95%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 350 20% 8%;
+    --foreground: 30 20% 92%;
+
+    --card: 350 18% 12%;
+    --card-foreground: 30 20% 92%;
+
+    --popover: 350 18% 12%;
+    --popover-foreground: 30 20% 92%;
+
+    --primary: 348 50% 45%;
+    --primary-foreground: 30 30% 95%;
+
+    --secondary: 42 50% 40%;
+    --secondary-foreground: 30 30% 95%;
+
+    --muted: 350 15% 18%;
+    --muted-foreground: 30 10% 55%;
+
+    --accent: 42 50% 40%;
+    --accent-foreground: 30 30% 95%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 350 15% 20%;
+    --input: 350 15% 20%;
+    --ring: 348 50% 45%;
+
+    --chat-bot: 350 15% 15%;
+    --chat-bot-foreground: 30 20% 90%;
+    --chat-user: 348 50% 38%;
+    --chat-user-foreground: 30 30% 95%;
+
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Lato", sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Playfair Display", serif;
+  }
+  .font-body {
+    font-family: "Lato", sans-serif;
+  }
+}
