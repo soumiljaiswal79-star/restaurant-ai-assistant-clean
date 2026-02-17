@@ -19,6 +19,24 @@ An AI-powered restaurant chatbot that acts as a professional front-desk host, he
 - **Styling** — Tailwind CSS with custom HSL design tokens, Framer Motion animations
 - **Markdown** — react-markdown for rich bot responses
 
+##  AI Integration
+
+This project uses conversational AI to interpret user booking requests
+and convert them into structured reservation data.
+
+### Why AI?
+Traditional booking systems require users to fill forms.
+This assistant allows natural language input such as:
+"Book a table for 4 tomorrow at 8 PM"
+
+The AI parses:
+- Date & time
+- Number of guests
+- Special requests
+
+This improves user experience and reduces booking friction.
+
+
 ## Getting Started-
 
 ### Prerequisites
