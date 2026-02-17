@@ -36,6 +36,8 @@ The AI parses:
 
 This improves user experience and reduces booking friction.
 
+Initial UI generated with AI assistance, then manually refactored for performance and accessibility.
+
 
 ## Getting Started:
 
