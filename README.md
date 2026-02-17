@@ -37,7 +37,7 @@ The AI parses:
 This improves user experience and reduces booking friction.
 
 
-## Getting Started-
+## Getting Started:
 
 ### Prerequisites
 
